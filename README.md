@@ -1,0 +1,32 @@
+Title of the manuscript :Design of Rectangular Slotted-Patch Antenna Array-Sensor for Breast-Tumor Detection, Paper id: 9775
+ Authors and their affiliations: 1. D. Chaturvedi, Dept. of Electronics and Communication Engineering, Indian Institute of Information Technology, Pune, India 2. MVL Bhavani( corresponding author),
+  Dept. of Electronics and Communication Engineering, SRM University-AP, India 3. Arvind Kumar,Dept. of Electronics and Communication Engineering, Visvesvaraya National Institute of Technology, Nagpur, India.
+
+  Steps to design the proposed "**Rectangular patch antenna-array**"
+  Calculate the dimensions (Length and Width) of Rectngular Microstrip patch antenna for the operating frequency 6.9 GHz
+  o	Dielectric constant (εr) = 2.2
+  o	Substrate height (h) = 0.8 mm
+ This is based on standard design equations for a rectangular microstrip patch antenna operating in the TM₁₀ mode as shown below
+ 1. Width (W) of the patch
+W = c / (2 * f_r) * sqrt(2 / (ε_r + 1))
+2. The Effective Dielectric Constant (ε_eff) is 
+ε_eff = (ε_r + 1)/2 + (ε_r - 1)/2 * [1 + 12 * (h / W)]^(-0.5)
+3. The Extension in Length (ΔL) due to fringing fields is:
+ΔL = 0.412 * h * ((ε_eff + 0.3) * (W/h + 0.264)) / ((ε_eff - 0.258) * (W/h + 0.8))
+4. Effective Length (L_eff)  is:
+L_eff = c / (2 * f_r * sqrt(ε_eff))
+5. The actual Length (L) of the patch is:
+L = L_eff - 2 * ΔL
+6. The resonant frequency of the patch antenna in TM_10 mode is:
+f_r = c / (2 * L * sqrt(ε_eff))
+
+After calculating the dimensions of the patch the next step is to etch 4 rectangular slots in the non-radiating edge of the patch
+The extension in the length of the rectangular patch is:
+Ltotal= Leff+lslot
+The frequency will shift downward due to extension in patch length
+fnew = fo-c/lambda_go
+The new operating frequency will be 5.8 GHz
+The next step is to design a 1:4 wilkinson power divider which distribute power equally to 4 antenna-elements
+The wilkinson power divider will be based on the quarter wave transformer impedance calculation
+ Zt = sqrt(Zi*ZL) , where Zi is the input impedance and ZL is the load impedance, and Zt is the characteristic impedance of a quarter-wave transformer 
+
