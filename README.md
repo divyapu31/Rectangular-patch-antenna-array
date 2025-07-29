@@ -9,9 +9,9 @@ Title of the manuscript :**Design of Rectangular Slotted-Patch Antenna Array-Sen
  1. Width (W) of the patch
 W = c / (2 * f_r) * sqrt(2 / (ε_r + 1))
 2. The Effective Dielectric Constant (ε_eff) is 
-ε_eff = (ε_r + 1)/2 + (ε_r - 1)/2 * [1 + 12 * (h / W)]^(-0.5)
+eps_eff = (ε_r + 1)/2 + (ε_r - 1)/2 * [1 + 12 * (h / W)]^(-0.5)
 3. The Extension in Length (ΔL) due to fringing fields is:
-ΔL = 0.412 * h * ((ε_eff + 0.3) * (W/h + 0.264)) / ((ε_eff - 0.258) * (W/h + 0.8))
+ΔL = 0.412 * h * ((eps_eff + 0.3) * (W/h + 0.264)) / ((eps_eff - 0.258) * (W/h + 0.8))
 4. Effective Length (L_eff)  is:
 L_eff = c / (2 * f_r * sqrt(ε_eff))
 5. The actual Length (L) of the patch is:
@@ -21,11 +21,12 @@ f_r = c / (2 * L * sqrt(ε_eff))
 
 After calculating the dimensions of the patch the next step is to etch 4 rectangular slots in the non-radiating edge of the patch
 The extension in the length of the rectangular patch is:
-Ltotal= Leff+lslot
+Leff_new = Leff + delta_L_slot_effect
 The frequency will shift downward due to extension in patch length
-fnew = fo-c/lambda_go
+fr_new = c / (2 * Leff_new * np.sqrt(eps_eff))
 The new operating frequency will be 5.8 GHz
-The next step is to design a 1:4 wilkinson power divider which distribute power equally to 4 antenna-elements
+
+The next step is to design a **1:4 wilkinson power divider** which distribute power equally to 4 antenna-elements
 The wilkinson power divider will be based on the quarter wave transformer impedance calculation
  Zt = sqrt(Zi*ZL) , where Zi is the input impedance and ZL is the load impedance, and Zt is the characteristic impedance of a quarter-wave transformer 
 
