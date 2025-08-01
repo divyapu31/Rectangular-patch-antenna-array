@@ -22,8 +22,11 @@ Python code file 2 (determine the dimesnions of 4 way power divider)_
 
 
 ****Design work flow****
+
   o	Dielectric constant (εr) = 2.2
+  
   o	Substrate height (h) = 0.8 mm
+
  This is based on standard design equations for a rectangular microstrip patch antenna operating in the TM₁₀ mode as shown below
  1. Width (W) of the patch
 W = c / (2 * f_r) * sqrt(2 / (ε_r + 1))
