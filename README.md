@@ -1,6 +1,9 @@
-Title of the manuscript :**Design of Rectangular Slotted-Patch Antenna Array-Sensor for Breast-Tumor Detection**, Paper id: **9775**
-
-Authors and their affiliations: 1. D. Chaturvedi, Dept. of Electronics and Communication Engineering, Indian Institute of Information Technology, Pune, India 2. MVL Bhavani( corresponding author) Dept. of Electronics and Communication Engineering, SRM University-AP, India 3. Arvind Kumar, Dept. of Electronics and Communication Engineering, Visvesvaraya National Institute of Technology, Nagpur, India.
+**Repository information**
+This repository contains  the steps to develop a rectangular microstrip patch antenna array conatining 4 rectangular slots for miniaturization and the 4 antenna elements are fed with 4 equal way power wilkinson power divider. Firstly the dimensions of the patch and power divider are calculated with help of python code, later the antenna is designed and optimized using CST microwave studio simulation solver. The original CST files of the proposed antenna as single element and overall array antenna is defined here.
+**Manuscript Information **
+**Title of the manuscript**:Design of Rectangular Slotted-Patch Antenna Array-Sensor for Breast-Tumor Detection
+**Paper id:** 9775
+**Authors and their affiliations:** 1. D. Chaturvedi, Dept. of Electronics and Communication Engineering, Indian Institute of Information Technology, Pune, India 2. MVL Bhavani( corresponding author) Dept. of Electronics and Communication Engineering, SRM University-AP, India 3. Arvind Kumar, Dept. of Electronics and Communication Engineering, Visvesvaraya National Institute of Technology, Nagpur, India.
 
   Steps to design the proposed "**Rectangular patch antenna-array**"
   Calculate the dimensions (Length and Width) of Rectngular Microstrip patch antenna for the operating frequency 6.9 GHz
