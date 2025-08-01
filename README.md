@@ -17,7 +17,7 @@ This repository contains  the steps to develop a rectangular microstrip patch an
 
 
 _**** Steps to design the proposed Antenna Array** **_
-_Python code file 1 ( determine the dimensions of slotted RMPA)
+Python code file 1 (  determine the dimensions of slotted RMPA)
 Python code file 2 (determine the dimesnions of 4 way power divider)_
 
 
@@ -58,4 +58,5 @@ The wilkinson power divider will be based on the quarter wave transformer impeda
 
 
 _**Results **_
+
 List of Figures.docx
