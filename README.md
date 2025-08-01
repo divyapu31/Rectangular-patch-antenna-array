@@ -53,9 +53,8 @@ The wilkinson power divider will be based on the quarter wave transformer impeda
  Zt = sqrt(Zi*ZL) , where Zi is the input impedance and ZL is the load impedance, and Zt is the characteristic impedance of a quarter-wave transformer 
  
 **_Results Visulization_**
-Single patch with slots.cst
-
-proposed Array antenna.cst
+1. Single patch with slots.cst
+2. Proposed Array antenna.cst
 
 
 _**Results **_
