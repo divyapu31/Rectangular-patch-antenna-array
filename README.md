@@ -5,11 +5,14 @@ This repository contains  the steps to develop a rectangular microstrip patch an
 **_Manuscript Information_** :
 
 **Title of the manuscript**:Design of Rectangular Slotted-Patch Antenna Array-Sensor for Breast-Tumor Detection
+
 **Paper id:** 9775
+
 **Authors and their affiliations:** 
 1. D. Chaturvedi, Dept. of Electronics and Communication Engineering, Indian Institute of Information Technology, Pune, India
 2. MVL Bhavani( corresponding author) Dept. of Electronics and Communication Engineering, SRM University-AP, India 
 3. Arvind Kumar, Dept. of Electronics and Communication Engineering, Visvesvaraya National Institute of Technology, Nagpur, India.
+   
 **Journal:** Latin America Transactions
 
 
@@ -48,6 +51,7 @@ The wilkinson power divider will be based on the quarter wave transformer impeda
  
 **_Results Visulization_**
 Single patch with slots.cst
+
 proposed Array antenna.cst
 
 
